@@ -1,0 +1,2144 @@
+{
+  "alarmActionsEnabled": true,
+  "ansible_host": "192.168.22.10",
+  "availableField": [
+    {
+      "fieldDefPrivileges": null,
+      "fieldInstancePrivileges": null,
+      "key": 144,
+      "name": "AnsibleGroup",
+      "type": "<class 'str'>"
+    },
+    {
+      "fieldDefPrivileges": null,
+      "fieldInstancePrivileges": null,
+      "key": 145,
+      "name": "ostype",
+      "type": "<class 'str'>"
+    },
+    {
+      "fieldDefPrivileges": null,
+      "fieldInstancePrivileges": null,
+      "key": 146,
+      "name": "project",
+      "type": "<class 'str'>"
+    },
+    {
+      "fieldDefPrivileges": null,
+      "fieldInstancePrivileges": null,
+      "key": 147,
+      "name": "public_dns",
+      "type": "<class 'str'>"
+    },
+    {
+      "fieldDefPrivileges": null,
+      "fieldInstancePrivileges": null,
+      "key": 148,
+      "name": "public_ip",
+      "type": "<class 'str'>"
+    }
+  ],
+  "capability.bootOptionsSupported": true,
+  "capability.bootRetryOptionsSupported": true,
+  "capability.changeTrackingSupported": true,
+  "capability.consolePreferencesSupported": false,
+  "capability.cpuFeatureMaskSupported": true,
+  "capability.disableSnapshotsSupported": false,
+  "capability.diskOnlySnapshotOnSuspendedVMSupported": true,
+  "capability.diskSharesSupported": true,
+  "capability.featureRequirementSupported": true,
+  "capability.guestAutoLockSupported": true,
+  "capability.hostBasedReplicationSupported": true,
+  "capability.lockSnapshotsSupported": true,
+  "capability.memoryReservationLockSupported": true,
+  "capability.memorySnapshotsSupported": true,
+  "capability.multipleCoresPerSocketSupported": true,
+  "capability.multipleSnapshotsSupported": true,
+  "capability.nestedHVSupported": true,
+  "capability.npivWwnOnNonRdmVmSupported": true,
+  "capability.perVmEvcSupported": true,
+  "capability.pmemFailoverSupported": false,
+  "capability.poweredOffSnapshotsSupported": true,
+  "capability.poweredOnMonitorTypeChangeSupported": true,
+  "capability.quiescedSnapshotsSupported": true,
+  "capability.recordReplaySupported": false,
+  "capability.revertToSnapshotSupported": true,
+  "capability.s1AcpiManagementSupported": true,
+  "capability.seSparseDiskSupported": true,
+  "capability.secureBootSupported": true,
+  "capability.settingDisplayTopologySupported": true,
+  "capability.settingScreenResolutionSupported": true,
+  "capability.settingVideoRamSizeSupported": true,
+  "capability.sevSupported": false,
+  "capability.snapshotConfigSupported": true,
+  "capability.snapshotOperationsSupported": true,
+  "capability.suspendToMemorySupported": true,
+  "capability.swapPlacementSupported": true,
+  "capability.toolsAutoUpdateSupported": false,
+  "capability.toolsSyncTimeAllowSupported": true,
+  "capability.toolsSyncTimeSupported": true,
+  "capability.vPMCSupported": true,
+  "capability.virtualExecUsageIgnored": true,
+  "capability.virtualMmuUsageIgnored": true,
+  "capability.virtualMmuUsageSupported": false,
+  "capability.vmNpivWwnDisableSupported": true,
+  "capability.vmNpivWwnSupported": true,
+  "capability.vmNpivWwnUpdateSupported": true,
+  "config.alternateGuestName": "",
+  "config.annotation": "",
+  "config.bootOptions.bootDelay": 0,
+  "config.bootOptions.bootOrder": [],
+  "config.bootOptions.bootRetryDelay": 10000,
+  "config.bootOptions.bootRetryEnabled": false,
+  "config.bootOptions.efiSecureBootEnabled": false,
+  "config.bootOptions.enterBIOSSetup": false,
+  "config.bootOptions.networkBootProtocol": "ipv4",
+  "config.changeTrackingEnabled": false,
+  "config.changeVersion": "2024-05-17T16:47:00.074449Z",
+  "config.consolePreferences": null,
+  "config.contentLibItemInfo": null,
+  "config.cpuAffinity": null,
+  "config.cpuAllocation.expandableReservation": false,
+  "config.cpuAllocation.limit": -1,
+  "config.cpuAllocation.overheadLimit": null,
+  "config.cpuAllocation.reservation": 0,
+  "config.cpuAllocation.shares.level": "normal",
+  "config.cpuAllocation.shares.shares": 2000,
+  "config.cpuFeatureMask": [],
+  "config.cpuHotAddEnabled": false,
+  "config.cpuHotRemoveEnabled": false,
+  "config.createDate": "2024-05-16T11:56:01.353081Z",
+  "config.datastoreUrl": [
+    {
+      "name": "management-share",
+      "url": "/vmfs/volumes/e61e523a-8c5511dc"
+    }
+  ],
+  "config.defaultPowerOps.defaultPowerOffType": "soft",
+  "config.defaultPowerOps.defaultResetType": "soft",
+  "config.defaultPowerOps.defaultSuspendType": "hard",
+  "config.defaultPowerOps.powerOffType": "soft",
+  "config.defaultPowerOps.resetType": "soft",
+  "config.defaultPowerOps.standbyAction": "checkpoint",
+  "config.defaultPowerOps.suspendType": "hard",
+  "config.extraConfig": [
+    {
+      "key": "sched.cpu.latencySensitivity",
+      "value": "normal"
+    },
+    {
+      "key": "tools.guest.desktop.autolock",
+      "value": "FALSE"
+    },
+    {
+      "key": "nvram",
+      "value": "bastion-8xxgt.nvram"
+    },
+    {
+      "key": "svga.present",
+      "value": "TRUE"
+    },
+    {
+      "key": "pciBridge0.present",
+      "value": "TRUE"
+    },
+    {
+      "key": "pciBridge4.present",
+      "value": "TRUE"
+    },
+    {
+      "key": "pciBridge4.virtualDev",
+      "value": "pcieRootPort"
+    },
+    {
+      "key": "pciBridge4.functions",
+      "value": "8"
+    },
+    {
+      "key": "pciBridge5.present",
+      "value": "TRUE"
+    },
+    {
+      "key": "pciBridge5.virtualDev",
+      "value": "pcieRootPort"
+    },
+    {
+      "key": "pciBridge5.functions",
+      "value": "8"
+    },
+    {
+      "key": "pciBridge6.present",
+      "value": "TRUE"
+    },
+    {
+      "key": "pciBridge6.virtualDev",
+      "value": "pcieRootPort"
+    },
+    {
+      "key": "pciBridge6.functions",
+      "value": "8"
+    },
+    {
+      "key": "pciBridge7.present",
+      "value": "TRUE"
+    },
+    {
+      "key": "pciBridge7.virtualDev",
+      "value": "pcieRootPort"
+    },
+    {
+      "key": "pciBridge7.functions",
+      "value": "8"
+    },
+    {
+      "key": "hpet0.present",
+      "value": "TRUE"
+    },
+    {
+      "key": "viv.moid",
+      "value": "3a76dcad-70e0-4775-9e3f-f7d20e1dd8f0:vm-6782:yPL3aOR18AteK+sgmAbGSl5gsGa1uem7MWPrJBTD1bA="
+    },
+    {
+      "key": "vmware.tools.internalversion",
+      "value": "12357"
+    },
+    {
+      "key": "vmware.tools.requiredversion",
+      "value": "12358"
+    },
+    {
+      "key": "migrate.hostLogState",
+      "value": "none"
+    },
+    {
+      "key": "migrate.migrationId",
+      "value": "0"
+    },
+    {
+      "key": "migrate.hostLog",
+      "value": "bastion-8xxgt-67bff16d.hlog"
+    },
+    {
+      "key": "guestinfo.metadata.encoding",
+      "value": "base64"
+    },
+    {
+      "key": "guestinfo.userdata",
+      "value": "I2Nsb3VkLWNvbmZpZwpzc2hfYXV0aG9yaXplZF9rZXlzOgogIC0gc3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCZ1FDNHh2UmNnZzkvMmI1Ly9iT1BkQXNhMXMzOXgvUGZ5QlIrZjVmNkpTckFrSGsyNlh0Wkt1cFRVM0l1ZHNVODl1ZGhlT25FTjFrQmRUOUFFZWNDQnFQYzB1a2NmOWFYK0h5L1JUYlh6c2RVNHhPRHlRWTdZOC9yVG9aNDlBZkJtWFUvd3ZYTDMzZHNGV1VKdVZqUzNVL2lxTnhVL1E5bE9xQzcrZThtZUxDeGgwZEhhaU83UzZGaGVmT2NNZWxwTEZaT0wwN1o2eEQ1djU0VC8xWUFSZG1HM1FiQ2VZQytyV2lzSWEyK0swZS9STXpFQjBETE15RjdlcEIxQXdRUFphejBVdHpKZEdHMnltYXNOTit2dGRUdHQxOGVJcFQ3TzQxc1Zpb01Jd050RDZUbHF5SVFHR2xWYy9Sa1JTczlvUURpZHdKLzgrSXNSYWJOTVd0MkRDd3prUDhWT1dsUkZLUTJXeHNUOUtwaWZ4Qm5iOHFSNFhpRGhPMkRQRXZneWZlUlBzWHJIUm5LaThZK1RIb0thbVcxMldsc3R4OXdGRVI4aDZySU0xSXd5K1lXZkJuRjU1RmprZ044Z3gzMHBSZktYbDBJd1FHK3VHK2Rma2RsOUVZdVRhcVRVNTBWNTFEWVMzYmlRdEZOTDlSY1hDVTZMcDdhTGw4RUtiNnFsOWM9CmRpc2FibGVfZWMyX21ldGFkYXRhOiAndHJ1ZScKZnFkbjogYmFzdGlvbi04eHhndAo="
+    },
+    {
+      "key": "guestinfo.userdata.encoding",
+      "value": "base64"
+    },
+    {
+      "key": "ethernet0.pciSlotNumber",
+      "value": "192"
+    },
+    {
+      "key": "monitor.phys_bits_used",
+      "value": "43"
+    },
+    {
+      "key": "numa.autosize.cookie",
+      "value": "20012"
+    },
+    {
+      "key": "numa.autosize.vcpu.maxPerVirtualNode",
+      "value": "2"
+    },
+    {
+      "key": "pciBridge0.pciSlotNumber",
+      "value": "17"
+    },
+    {
+      "key": "pciBridge4.pciSlotNumber",
+      "value": "21"
+    },
+    {
+      "key": "pciBridge5.pciSlotNumber",
+      "value": "22"
+    },
+    {
+      "key": "pciBridge6.pciSlotNumber",
+      "value": "23"
+    },
+    {
+      "key": "pciBridge7.pciSlotNumber",
+      "value": "24"
+    },
+    {
+      "key": "sched.swap.derivedName",
+      "value": "/vmfs/volumes/e61e523a-8c5511dc/bastion-8xxgt/bastion-8xxgt-d84d9b0f.vswp"
+    },
+    {
+      "key": "scsi0.pciSlotNumber",
+      "value": "160"
+    },
+    {
+      "key": "scsi0.sasWWID",
+      "value": "50 05 05 6d 77 fd 77 80"
+    },
+    {
+      "key": "scsi0:0.redo",
+      "value": ""
+    },
+    {
+      "key": "softPowerOff",
+      "value": "FALSE"
+    },
+    {
+      "key": "vmotion.checkpointFBSize",
+      "value": "4194304"
+    },
+    {
+      "key": "vmotion.checkpointSVGAPrimarySize",
+      "value": "4194304"
+    },
+    {
+      "key": "svga.guestBackedPrimaryAware",
+      "value": "TRUE"
+    },
+    {
+      "key": "guestInfo.detailed.data",
+      "value": "architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.3 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.3' familyName='Linux' kernelVersion='5.14.0-362.24.1.el9_3.x86_64' prettyName='Red Hat Enterprise Linux 9.3 (Plow)'"
+    },
+    {
+      "key": "guestinfo.ovfEnv",
+      "value": ""
+    },
+    {
+      "key": "guestinfo.vmtools.buildNumber",
+      "value": "21855600"
+    },
+    {
+      "key": "guestinfo.vmtools.description",
+      "value": "open-vm-tools 12.2.5 build 21855600"
+    },
+    {
+      "key": "guestinfo.vmtools.versionNumber",
+      "value": "12357"
+    },
+    {
+      "key": "guestinfo.vmtools.versionString",
+      "value": "12.2.5"
+    },
+    {
+      "key": "guestinfo.local-ipv4",
+      "value": "192.168.22.10"
+    },
+    {
+      "key": "guestinfo.local-ipv6",
+      "value": "fe80::250:56ff:fe8e:2687%eth0"
+    },
+    {
+      "key": "guestinfo.vmware.components.available",
+      "value": "none"
+    },
+    {
+      "key": "guestinfo.appInfo",
+      "value": "{\n\"version\":\"1\", \n\"updateCounter\":\"1\", \n\"publishTime\":\"2024-05-17T17:53:44.151Z\", \n\"applications\":[\n{\"a\":\"kworker/1:1-xfs-sync/sda4\",\"v\":\"\"},\n{\"a\":\"tls-strp\",\"v\":\"\"},\n{\"a\":\"agetty\",\"v\":\"\"},\n{\"a\":\"crond\",\"v\":\"\"},\n{\"a\":\"sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\",\"v\":\"\"},\n{\"a\":\"rsyslogd\",\"v\":\"\"},\n{\"a\":\"rhsmcertd\",\"v\":\"\"},\n{\"a\":\"python3\",\"v\":\"\"},\n{\"a\":\"NetworkManager\",\"v\":\"\"},\n{\"a\":\"polkitd\",\"v\":\"\"},\n{\"a\":\"chronyd\",\"v\":\"\"},\n{\"a\":\"vmtoolsd\",\"v\":\"\"},\n{\"a\":\"VGAuthService\",\"v\":\"\"},\n{\"a\":\"udisksd\",\"v\":\"\"},\n{\"a\":\"systemd-logind\",\"v\":\"\"},\n{\"a\":\"irqbalance\",\"v\":\"\"},\n{\"a\":\"dbus-broker\",\"v\":\"\"},\n{\"a\":\"dbus-broker-launch\",\"v\":\"\"},\n{\"a\":\"auditd\",\"v\":\"\"},\n{\"a\":\"ttm\",\"v\":\"\"},\n{\"a\":\"irq/16-vmwgfx\",\"v\":\"\"},\n{\"a\":\"nfit\",\"v\":\"\"},\n{\"a\":\"xfsaild/sda3\",\"v\":\"\"},\n{\"a\":\"xfs-cil/sda3\",\"v\":\"\"},\n{\"a\":\"xfs-log/sda3\",\"v\":\"\"},\n{\"a\":\"xfs-inodegc/sda\",\"v\":\"\"},\n{\"a\":\"xfs-blockgc/sda\",\"v\":\"\"},\n{\"a\":\"xfs-reclaim/sda\",\"v\":\"\"},\n{\"a\":\"xfs-conv/sda3\",\"v\":\"\"},\n{\"a\":\"xfs-buf/sda3\",\"v\":\"\"},\n{\"a\":\"irq/61-vmw_vmci\",\"v\":\"\"},\n{\"a\":\"irq/60-vmw_vmci\",\"v\":\"\"},\n{\"a\":\"systemd-udevd\",\"v\":\"\"},\n{\"a\":\"systemd-journald\",\"v\":\"\"},\n{\"a\":\"xfsaild/sda4\",\"v\":\"\"},\n{\"a\":\"xfs-cil/sda4\",\"v\":\"\"},\n{\"a\":\"xfs-log/sda4\",\"v\":\"\"},\n{\"a\":\"xfs-conv/sda4\",\"v\":\"\"},\n{\"a\":\"xfs-buf/sda4\",\"v\":\"\"},\n{\"a\":\"xfs_mru_cache\",\"v\":\"\"},\n{\"a\":\"xfsalloc\",\"v\":\"\"},\n{\"a\":\"kworker/u4:4-flush-8:0\",\"v\":\"\"},\n{\"a\":\"scsi_tmf_2\",\"v\":\"\"},\n{\"a\":\"scsi_eh_2\",\"v\":\"\"},\n{\"a\":\"scsi_tmf_1\",\"v\":\"\"},\n{\"a\":\"scsi_eh_1\",\"v\":\"\"},\n{\"a\":\"ata_sff\",\"v\":\"\"},\n{\"a\":\"vmw_pvscsi_wq_0\",\"v\":\"\"},\n{\"a\":\"scsi_tmf_0\",\"v\":\"\"},\n{\"a\":\"scsi_eh_0\",\"v\":\"\"},\n{\"a\":\"kworker/1:2-mm_percpu_wq\",\"v\":\"\"},\n{\"a\":\"kworker/u5:0\",\"v\":\"\"},\n{\"a\":\"zswap-shrink\",\"v\":\"\"},\n{\"a\":\"kstrp\",\"v\":\"\"},\n{\"a\":\"kworker/u4:3-events_unbound\",\"v\":\"\"},\n{\"a\":\"ipv6_addrconf\",\"v\":\"\"},\n{\"a\":\"kworker/0:1H-kblockd\",\"v\":\"\"},\n{\"a\":\"mld\",\"v\":\"\"},\n{\"a\":\"kaluad\",\"v\":\"\"},\n{\"a\":\"kmpath_rdacd\",\"v\":\"\"},\n{\"a\":\"acpi_thermal_pm\",\"v\":\"\"},\n{\"a\":\"irq/55-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/54-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/53-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/52-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/51-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/50-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/49-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/48-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/47-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/46-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/45-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/44-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/43-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/42-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/41-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/40-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/39-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/38-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/37-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/36-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/35-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/34-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/33-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/32-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/31-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/30-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/29-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/28-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/27-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/26-pciehp\",\"v\":\"\"},\n{\"a\":\"kworker/0:3-events\",\"v\":\"\"},\n{\"a\":\"irq/25-pciehp\",\"v\":\"\"},\n{\"a\":\"irq/24-pciehp\",\"v\":\"\"},\n{\"a\":\"kworker/0:2-events\",\"v\":\"\"},\n{\"a\":\"kthrotld\",\"v\":\"\"},\n{\"a\":\"kswapd0\",\"v\":\"\"},\n{\"a\":\"kworker/1:1H-kblockd\",\"v\":\"\"},\n{\"a\":\"watchdogd\",\"v\":\"\"},\n{\"a\":\"edac-poller\",\"v\":\"\"},\n{\"a\":\"md\",\"v\":\"\"},\n{\"a\":\"tpm_dev_wq\",\"v\":\"\"},\n{\"a\":\"blkcg_punt_bio\",\"v\":\"\"},\n{\"a\":\"kblockd\",\"v\":\"\"},\n{\"a\":\"kintegrityd\",\"v\":\"\"},\n{\"a\":\"cryptd\",\"v\":\"\"},\n{\"a\":\"khugepaged\",\"v\":\"\"},\n{\"a\":\"ksmd\",\"v\":\"\"},\n{\"a\":\"kcompactd0\",\"v\":\"\"},\n{\"a\":\"writeback\",\"v\":\"\"},\n{\"a\":\"oom_reaper\",\"v\":\"\"},\n{\"a\":\"kworker/u4:2-events_unbound\",\"v\":\"\"},\n{\"a\":\"khungtaskd\",\"v\":\"\"},\n{\"a\":\"kauditd\",\"v\":\"\"},\n{\"a\":\"inet_frag_wq\",\"v\":\"\"},\n{\"a\":\"kdevtmpfs\",\"v\":\"\"},\n{\"a\":\"kworker/1:0H-events_highpri\",\"v\":\"\"},\n{\"a\":\"ksoftirqd/1\",\"v\":\"\"},\n{\"a\":\"migration/1\",\"v\":\"\"},\n{\"a\":\"idle_inject/1\",\"v\":\"\"},\n{\"a\":\"cpuhp/1\",\"v\":\"\"},\n{\"a\":\"cpuhp/0\",\"v\":\"\"},\n{\"a\":\"idle_inject/0\",\"v\":\"\"},\n{\"a\":\"migration/0\",\"v\":\"\"},\n{\"a\":\"rcu_preempt\",\"v\":\"\"},\n{\"a\":\"pr/tty0\",\"v\":\"\"},\n{\"a\":\"ksoftirqd/0\",\"v\":\"\"},\n{\"a\":\"rcu_tasks_trace\",\"v\":\"\"},\n{\"a\":\"rcu_tasks_rude_\",\"v\":\"\"},\n{\"a\":\"rcu_tasks_kthre\",\"v\":\"\"},\n{\"a\":\"mm_percpu_wq\",\"v\":\"\"},\n{\"a\":\"kworker/0:0H-events_highpri\",\"v\":\"\"},\n{\"a\":\"netns\",\"v\":\"\"},\n{\"a\":\"slub_flushwq\",\"v\":\"\"},\n{\"a\":\"rcu_par_gp\",\"v\":\"\"},\n{\"a\":\"rcu_gp\",\"v\":\"\"},\n{\"a\":\"kthreadd\",\"v\":\"\"},\n{\"a\":\"systemd\",\"v\":\"\"}]}"
+    }
+  ],
+  "config.files.ftMetadataDirectory": null,
+  "config.files.logDirectory": "[management-share] bastion-8xxgt/",
+  "config.files.snapshotDirectory": "[management-share] bastion-8xxgt/",
+  "config.files.suspendDirectory": "[management-share] bastion-8xxgt/",
+  "config.files.vmPathName": "[management-share] bastion-8xxgt/bastion-8xxgt.vmx",
+  "config.firmware": "efi",
+  "config.flags.cbrcCacheEnabled": false,
+  "config.flags.disableAcceleration": false,
+  "config.flags.diskUuidEnabled": false,
+  "config.flags.enableLogging": true,
+  "config.flags.faultToleranceType": "unset",
+  "config.flags.htSharing": "any",
+  "config.flags.monitorType": "release",
+  "config.flags.recordReplayEnabled": false,
+  "config.flags.runWithDebugInfo": false,
+  "config.flags.snapshotDisabled": false,
+  "config.flags.snapshotLocked": false,
+  "config.flags.snapshotPowerOffBehavior": "powerOff",
+  "config.flags.useToe": false,
+  "config.flags.vbsEnabled": false,
+  "config.flags.virtualExecUsage": "hvAuto",
+  "config.flags.virtualMmuUsage": "automatic",
+  "config.flags.vvtdEnabled": false,
+  "config.forkConfigInfo": null,
+  "config.ftEncryptionMode": "ftEncryptionOpportunistic",
+  "config.ftInfo": null,
+  "config.guestAutoLockEnabled": false,
+  "config.guestFullName": "Other 2.6.x Linux (64-bit)",
+  "config.guestId": "other26xLinux64Guest",
+  "config.guestIntegrityInfo.enabled": false,
+  "config.guestMonitoringModeInfo.gmmAppliance": null,
+  "config.guestMonitoringModeInfo.gmmFile": null,
+  "config.hardware.device": [
+    {
+      "backing": null,
+      "busNumber": 0,
+      "connectable": null,
+      "controllerKey": null,
+      "device": [],
+      "deviceInfo": {
+        "label": "IDE 0",
+        "summary": "IDE 0"
+      },
+      "key": 200,
+      "slotInfo": null,
+      "unitNumber": null
+    },
+    {
+      "backing": null,
+      "busNumber": 1,
+      "connectable": null,
+      "controllerKey": null,
+      "device": [],
+      "deviceInfo": {
+        "label": "IDE 1",
+        "summary": "IDE 1"
+      },
+      "key": 201,
+      "slotInfo": null,
+      "unitNumber": null
+    },
+    {
+      "backing": null,
+      "busNumber": 0,
+      "connectable": null,
+      "controllerKey": null,
+      "device": [
+        600,
+        700
+      ],
+      "deviceInfo": {
+        "label": "PS2 controller 0",
+        "summary": "PS2 controller 0"
+      },
+      "key": 300,
+      "slotInfo": null,
+      "unitNumber": null
+    },
+    {
+      "backing": null,
+      "busNumber": 0,
+      "connectable": null,
+      "controllerKey": null,
+      "device": [
+        500,
+        12000,
+        1000,
+        4000
+      ],
+      "deviceInfo": {
+        "label": "PCI controller 0",
+        "summary": "PCI controller 0"
+      },
+      "key": 100,
+      "slotInfo": null,
+      "unitNumber": null
+    },
+    {
+      "backing": null,
+      "busNumber": 0,
+      "connectable": null,
+      "controllerKey": null,
+      "device": [],
+      "deviceInfo": {
+        "label": "SIO controller 0",
+        "summary": "SIO controller 0"
+      },
+      "key": 400,
+      "slotInfo": null,
+      "unitNumber": null
+    },
+    {
+      "backing": null,
+      "connectable": null,
+      "controllerKey": 300,
+      "deviceInfo": {
+        "label": "Keyboard ",
+        "summary": "Keyboard"
+      },
+      "key": 600,
+      "slotInfo": null,
+      "unitNumber": 0
+    },
+    {
+      "backing": {
+        "deviceName": "",
+        "hostPointingDevice": "autodetect",
+        "useAutoDetect": false
+      },
+      "connectable": null,
+      "controllerKey": 300,
+      "deviceInfo": {
+        "label": "Pointing device",
+        "summary": "Pointing device; Device"
+      },
+      "key": 700,
+      "slotInfo": null,
+      "unitNumber": 1
+    },
+    {
+      "backing": null,
+      "connectable": null,
+      "controllerKey": 100,
+      "deviceInfo": {
+        "label": "Video card ",
+        "summary": "Video card"
+      },
+      "enable3DSupport": false,
+      "graphicsMemorySizeInKB": 262144,
+      "key": 500,
+      "numDisplays": 1,
+      "slotInfo": null,
+      "unitNumber": 0,
+      "use3dRenderer": "automatic",
+      "useAutoDetect": false,
+      "videoRamSizeInKB": 4096
+    },
+    {
+      "allowUnrestrictedCommunication": false,
+      "backing": null,
+      "connectable": null,
+      "controllerKey": 100,
+      "deviceInfo": {
+        "label": "VMCI device",
+        "summary": "Device on the virtual machine PCI bus that provides support for the virtual machine communication interface"
+      },
+      "filterEnable": true,
+      "filterInfo": null,
+      "id": 1858125960,
+      "key": 12000,
+      "slotInfo": null,
+      "unitNumber": 17
+    },
+    {
+      "backing": null,
+      "busNumber": 0,
+      "connectable": null,
+      "controllerKey": 100,
+      "device": [
+        2000
+      ],
+      "deviceInfo": {
+        "label": "SCSI controller 0",
+        "summary": "VMware paravirtual SCSI"
+      },
+      "hotAddRemove": true,
+      "key": 1000,
+      "scsiCtlrUnitNumber": 7,
+      "sharedBus": "noSharing",
+      "slotInfo": {
+        "pciSlotNumber": 160
+      },
+      "unitNumber": 3
+    },
+    {
+      "backing": {
+        "backingObjectId": "",
+        "changeId": null,
+        "contentId": "a681454a1d66b10ccaf7ce7ddb3b5033",
+        "datastore": "'vim.Datastore:datastore-1030'",
+        "deltaDiskFormat": null,
+        "deltaDiskFormatVariant": null,
+        "deltaGrainSize": null,
+        "digestEnabled": false,
+        "diskMode": "persistent",
+        "eagerlyScrub": false,
+        "fileName": "[management-share] bastion-8xxgt/bastion-8xxgt.vmdk",
+        "keyId": null,
+        "parent": null,
+        "sharing": "sharingNone",
+        "split": false,
+        "thinProvisioned": true,
+        "uuid": "6000C29e-b051-ec68-2683-e9ac90744c4a",
+        "writeThrough": false
+      },
+      "capacityInBytes": 32212254720,
+      "capacityInKB": 31457280,
+      "connectable": null,
+      "controllerKey": 1000,
+      "deviceInfo": {
+        "label": "Hard disk 1",
+        "summary": "31,457,280 KB"
+      },
+      "diskObjectId": "1505-2000",
+      "iofilter": [],
+      "key": 2000,
+      "nativeUnmanagedLinkedClone": false,
+      "shares": {
+        "level": "normal",
+        "shares": 1000
+      },
+      "slotInfo": null,
+      "storageIOAllocation": {
+        "limit": -1,
+        "reservation": 0,
+        "shares": {
+          "level": "normal",
+          "shares": 1000
+        }
+      },
+      "unitNumber": 0,
+      "vDiskId": null,
+      "vFlashCacheConfigInfo": null
+    },
+    {
+      "addressType": "assigned",
+      "backing": {
+        "port": {
+          "connectionCookie": 1715860579,
+          "portKey": "50c8af08-b050-4f57-8089-ee9a4936098e",
+          "portgroupKey": "dvportgroup-6780",
+          "switchUuid": "50 0e 9e 72 29 81 6c d4-4d a3 51 ee f2 bb a7 cc"
+        }
+      },
+      "connectable": {
+        "allowGuestControl": true,
+        "connected": true,
+        "migrateConnect": "unset",
+        "startConnected": true,
+        "status": "ok"
+      },
+      "controllerKey": 100,
+      "deviceInfo": {
+        "label": "Network adapter 1",
+        "summary": "DVSwitch: 50 0e 9e 72 29 81 6c d4-4d a3 51 ee f2 bb a7 cc"
+      },
+      "externalId": "891f3f2b-7431-4e3f-bc30-75e58473b019",
+      "key": 4000,
+      "macAddress": "00:50:56:8e:26:87",
+      "resourceAllocation": {
+        "limit": -1,
+        "reservation": 0,
+        "share": {
+          "level": "normal",
+          "shares": 50
+        }
+      },
+      "slotInfo": {
+        "pciSlotNumber": 192
+      },
+      "unitNumber": 7,
+      "uptCompatibilityEnabled": true,
+      "wakeOnLanEnabled": false
+    }
+  ],
+  "config.hardware.memoryMB": 4096,
+  "config.hardware.numCPU": 2,
+  "config.hardware.numCoresPerSocket": 1,
+  "config.hardware.virtualICH7MPresent": false,
+  "config.hardware.virtualSMCPresent": false,
+  "config.hotPlugMemoryIncrementSize": 0,
+  "config.hotPlugMemoryLimit": 4096,
+  "config.initialOverhead.initialMemoryReservation": 75931648,
+  "config.initialOverhead.initialSwapReservation": 592842752,
+  "config.instanceUuid": "500ee6b2-22d4-bb57-7352-00e48d5aa175",
+  "config.keyId": null,
+  "config.latencySensitivity.level": "normal",
+  "config.latencySensitivity.sensitivity": null,
+  "config.locationId": "564d0a53-1ad8-04ab-b7b8-4736eee70925",
+  "config.managedBy": null,
+  "config.maxMksConnections": 40,
+  "config.memoryAffinity": null,
+  "config.memoryAllocation.expandableReservation": false,
+  "config.memoryAllocation.limit": -1,
+  "config.memoryAllocation.overheadLimit": 71,
+  "config.memoryAllocation.reservation": 0,
+  "config.memoryAllocation.shares.level": "normal",
+  "config.memoryAllocation.shares.shares": 40960,
+  "config.memoryHotAddEnabled": false,
+  "config.memoryReservationLockedToMax": false,
+  "config.messageBusTunnelEnabled": false,
+  "config.migrateEncryption": "opportunistic",
+  "config.modified": "1970-01-01T00:00:00Z",
+  "config.name": "bastion-8xxgt",
+  "config.nestedHVEnabled": false,
+  "config.networkShaper": null,
+  "config.npivDesiredNodeWwns": null,
+  "config.npivDesiredPortWwns": null,
+  "config.npivNodeWorldWideName": [],
+  "config.npivOnNonRdmDisks": null,
+  "config.npivPortWorldWideName": [],
+  "config.npivTemporaryDisabled": true,
+  "config.npivWorldWideNameType": null,
+  "config.pmemFailoverEnabled": false,
+  "config.repConfig": null,
+  "config.scheduledHardwareUpgradeInfo.fault": null,
+  "config.scheduledHardwareUpgradeInfo.scheduledHardwareUpgradeStatus": "none",
+  "config.scheduledHardwareUpgradeInfo.upgradePolicy": "never",
+  "config.scheduledHardwareUpgradeInfo.versionKey": null,
+  "config.sevEnabled": false,
+  "config.sgxInfo.epcSize": 0,
+  "config.sgxInfo.flcMode": "unlocked",
+  "config.sgxInfo.lePubKeyHash": null,
+  "config.swapPlacement": "inherit",
+  "config.swapStorageObjectId": null,
+  "config.template": false,
+  "config.tools.afterPowerOn": true,
+  "config.tools.afterResume": true,
+  "config.tools.beforeGuestReboot": null,
+  "config.tools.beforeGuestShutdown": true,
+  "config.tools.beforeGuestStandby": true,
+  "config.tools.customizationKeyId": null,
+  "config.tools.lastInstallInfo.counter": 0,
+  "config.tools.lastInstallInfo.fault": null,
+  "config.tools.pendingCustomization": null,
+  "config.tools.syncTimeWithHost": false,
+  "config.tools.syncTimeWithHostAllowed": true,
+  "config.tools.toolsInstallType": "guestToolsTypeOpenVMTools",
+  "config.tools.toolsUpgradePolicy": "manual",
+  "config.tools.toolsVersion": 12357,
+  "config.uuid": "420e659d-77fd-7782-9eb6-a7386ec0c088",
+  "config.vAppConfig.eula": [],
+  "config.vAppConfig.installBootRequired": false,
+  "config.vAppConfig.installBootStopDelay": 0,
+  "config.vAppConfig.ipAssignment.ipAllocationPolicy": "fixedPolicy",
+  "config.vAppConfig.ipAssignment.ipProtocol": "IPv4",
+  "config.vAppConfig.ipAssignment.supportedAllocationScheme": [],
+  "config.vAppConfig.ipAssignment.supportedIpProtocol": [
+    "IPv4"
+  ],
+  "config.vAppConfig.ovfEnvironmentTransport": [
+    "com.vmware.guestInfo"
+  ],
+  "config.vAppConfig.ovfSection": [],
+  "config.vAppConfig.product": [
+    {
+      "appUrl": "",
+      "classId": "",
+      "fullVersion": "",
+      "instanceId": "",
+      "key": 0,
+      "name": "",
+      "productUrl": "",
+      "vendor": "",
+      "vendorUrl": "",
+      "version": ""
+    }
+  ],
+  "config.vAppConfig.property": [],
+  "config.vAssertsEnabled": false,
+  "config.vFlashCacheReservation": null,
+  "config.vPMCEnabled": false,
+  "config.vcpuConfig": [],
+  "config.version": "vmx-15",
+  "config.vmStorageObjectId": null,
+  "config.vmxConfigChecksum": "tdWrdLMl8yF+yyXKWiZxYV6x8WM=",
+  "configIssue": [],
+  "configStatus": "green",
+  "customValue": [
+    {
+      "key": 144,
+      "value": "bastions"
+    },
+    {
+      "key": 145,
+      "value": "linux"
+    },
+    {
+      "key": 146,
+      "value": "sandbox-8xxgt"
+    },
+    {
+      "key": 147,
+      "value": "True"
+    },
+    {
+      "key": 148,
+      "value": "169.63.253.31"
+    }
+  ],
+  "datastore": [],
+  "declaredAlarmState": [
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-47'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "47.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.19176Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-111'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "111.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191744Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-9'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "9.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191731Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-38'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": 2303787,
+      "key": "38.6782",
+      "overallStatus": "green",
+      "time": "2024-05-16T11:56:34.506965Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-39'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "39.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.1917Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-10'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "10.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191687Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-40'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "40.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191369Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-5'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "5.6782",
+      "overallStatus": "green",
+      "time": "2024-05-17T16:48:06.43627Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-15'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "15.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191469Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-54'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "54.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191489Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-2'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "2.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191504Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-19'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "19.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191566Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-6'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "6.6782",
+      "overallStatus": "green",
+      "time": "2024-05-17T16:48:06.436289Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-146'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "146.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191601Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-81'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "81.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191632Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-52'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "52.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191616Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-128'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "128.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.191646Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-12'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": null,
+      "key": "12.6782",
+      "overallStatus": "gray",
+      "time": "2024-05-16T11:55:50.19166Z"
+    },
+    {
+      "acknowledged": false,
+      "acknowledgedByUser": null,
+      "acknowledgedTime": null,
+      "alarm": "'vim.alarm.Alarm:alarm-142'",
+      "disabled": null,
+      "entity": "'vim.VirtualMachine:vm-6782'",
+      "eventKey": 2303854,
+      "key": "142.6782",
+      "overallStatus": "green",
+      "time": "2024-05-16T11:57:24.185088Z"
+    }
+  ],
+  "disabledMethod": [
+    "Destroy_Task",
+    "UnregisterVM",
+    "UnmountToolsInstaller",
+    "AnswerVM",
+    "UpgradeVM_Task",
+    "UpgradeTools_Task",
+    "UpgradeToolsFromImage_Task",
+    "ApplyEvcModeVM_Task",
+    "StartRecording_Task",
+    "StopRecording_Task",
+    "StartReplaying_Task",
+    "StopReplaying_Task",
+    "TurnOffFaultToleranceForVM_Task",
+    "MakePrimaryVM_Task",
+    "TerminateFaultTolerantVM_Task",
+    "DisableSecondaryVM_Task",
+    "EnableSecondaryVM_Task",
+    "StopRecording_Task",
+    "StopReplaying_Task",
+    "CustomizeVM_Task",
+    "MarkAsTemplate",
+    "ResetGuestInformation",
+    "ExportVm",
+    "PowerOnVM_Task",
+    "MarkAsVirtualMachine"
+  ],
+  "effectiveRole": [
+    -920791777
+  ],
+  "environmentBrowser": "'vim.EnvironmentBrowser:envbrowser-6782'",
+  "guest.appHeartbeatStatus": "appStatusGray",
+  "guest.appState": "none",
+  "guest.customizationInfo.customizationStatus": "TOOLSDEPLOYPKG_IDLE",
+  "guest.customizationInfo.endTime": null,
+  "guest.customizationInfo.errorMsg": null,
+  "guest.customizationInfo.startTime": null,
+  "guest.disk": [
+    {
+      "capacity": 31304167424,
+      "diskPath": "/",
+      "filesystemType": "xfs",
+      "freeSpace": 29291233280,
+      "mappings": [
+        {
+          "key": 2000
+        }
+      ]
+    },
+    {
+      "capacity": 562036736,
+      "diskPath": "/boot",
+      "filesystemType": "xfs",
+      "freeSpace": 391098368,
+      "mappings": [
+        {
+          "key": 2000
+        }
+      ]
+    },
+    {
+      "capacity": 209489920,
+      "diskPath": "/boot/efi",
+      "filesystemType": "vfat",
+      "freeSpace": 202186752,
+      "mappings": [
+        {
+          "key": 2000
+        }
+      ]
+    }
+  ],
+  "guest.generationInfo": [],
+  "guest.guestFamily": "linuxGuest",
+  "guest.guestFullName": "Red Hat Enterprise Linux 9 (64-bit)",
+  "guest.guestId": "rhel9_64Guest",
+  "guest.guestKernelCrashed": false,
+  "guest.guestOperationsReady": true,
+  "guest.guestState": "running",
+  "guest.guestStateChangeSupported": true,
+  "guest.hostName": "bastion-8xxgt",
+  "guest.hwVersion": "vmx-15",
+  "guest.interactiveGuestOperationsReady": false,
+  "guest.ipAddress": "192.168.22.10",
+  "guest.ipStack": [
+    {
+      "dhcpConfig": null,
+      "dnsConfig": {
+        "dhcp": false,
+        "domainName": "",
+        "hostName": "bastion-8xxgt",
+        "ipAddress": [
+          "8.8.8.8"
+        ],
+        "searchDomain": []
+      },
+      "ipRouteConfig": {
+        "ipRoute": [
+          {
+            "gateway": {
+              "device": "0",
+              "ipAddress": "192.168.22.1"
+            },
+            "network": "0.0.0.0",
+            "prefixLength": 0
+          },
+          {
+            "gateway": {
+              "device": "0",
+              "ipAddress": null
+            },
+            "network": "192.168.22.0",
+            "prefixLength": 24
+          },
+          {
+            "gateway": {
+              "device": "0",
+              "ipAddress": null
+            },
+            "network": "fe80::",
+            "prefixLength": 64
+          },
+          {
+            "gateway": {
+              "device": "0",
+              "ipAddress": null
+            },
+            "network": "fe80::250:56ff:fe8e:2687",
+            "prefixLength": 128
+          },
+          {
+            "gateway": {
+              "device": "0",
+              "ipAddress": null
+            },
+            "network": "ff00::",
+            "prefixLength": 8
+          }
+        ]
+      },
+      "ipStackConfig": []
+    }
+  ],
+  "guest.net": [
+    {
+      "connected": true,
+      "deviceConfigId": 4000,
+      "dnsConfig": null,
+      "ipAddress": [
+        "192.168.22.10",
+        "fe80::250:56ff:fe8e:2687"
+      ],
+      "ipConfig": {
+        "autoConfigurationEnabled": null,
+        "dhcp": null,
+        "ipAddress": [
+          {
+            "ipAddress": "192.168.22.10",
+            "lifetime": null,
+            "origin": null,
+            "prefixLength": 24,
+            "state": "preferred"
+          },
+          {
+            "ipAddress": "fe80::250:56ff:fe8e:2687",
+            "lifetime": null,
+            "origin": null,
+            "prefixLength": 64,
+            "state": "unknown"
+          }
+        ]
+      },
+      "macAddress": "00:50:56:8e:26:87",
+      "netBIOSConfig": null,
+      "network": "segment-sandbox-8xxgt"
+    }
+  ],
+  "guest.screen.height": 800,
+  "guest.screen.width": 1280,
+  "guest.toolsInstallType": "guestToolsTypeOpenVMTools",
+  "guest.toolsRunningStatus": "guestToolsRunning",
+  "guest.toolsStatus": "toolsOk",
+  "guest.toolsVersion": "12357",
+  "guest.toolsVersionStatus": "guestToolsUnmanaged",
+  "guest.toolsVersionStatus2": "guestToolsUnmanaged",
+  "guestHeartbeatStatus": "green",
+  "layout.configFile": [
+    "bastion-8xxgt.nvram",
+    "bastion-8xxgt.vmsd"
+  ],
+  "layout.disk": [
+    {
+      "diskFile": [
+        "[management-share] bastion-8xxgt/bastion-8xxgt.vmdk"
+      ],
+      "key": 2000
+    }
+  ],
+  "layout.logFile": [
+    "vmware-1.log",
+    "vmware.log"
+  ],
+  "layout.snapshot": [],
+  "layout.swapFile": "[management-share] bastion-8xxgt/bastion-8xxgt-d84d9b0f.vswp",
+  "layoutEx.disk": [
+    {
+      "chain": [
+        {
+          "fileKey": [
+            2,
+            3
+          ]
+        }
+      ],
+      "key": 2000
+    }
+  ],
+  "layoutEx.file": [
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 0,
+      "name": "[management-share] bastion-8xxgt/bastion-8xxgt.vmx",
+      "size": 4149,
+      "type": "config",
+      "uniqueSize": 4149
+    },
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 4,
+      "name": "[management-share] bastion-8xxgt/bastion-8xxgt.nvram",
+      "size": 270840,
+      "type": "nvram",
+      "uniqueSize": 270840
+    },
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 1,
+      "name": "[management-share] bastion-8xxgt/bastion-8xxgt.vmsd",
+      "size": 0,
+      "type": "snapshotList",
+      "uniqueSize": 0
+    },
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 2,
+      "name": "[management-share] bastion-8xxgt/bastion-8xxgt.vmdk",
+      "size": 556,
+      "type": "diskDescriptor",
+      "uniqueSize": 556
+    },
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 3,
+      "name": "[management-share] bastion-8xxgt/bastion-8xxgt-flat.vmdk",
+      "size": 2044346368,
+      "type": "diskExtent",
+      "uniqueSize": 2044346368
+    },
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 5,
+      "name": "[management-share] bastion-8xxgt/bastion-8xxgt-d84d9b0f.vswp",
+      "size": 0,
+      "type": "swap",
+      "uniqueSize": 0
+    },
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 6,
+      "name": "[management-share] bastion-8xxgt/vmx-bastion-8xxgt-ccfbc2a32767207a05ba46d3e60e0207b19c1daa-1.vswp",
+      "size": 0,
+      "type": "uwswap",
+      "uniqueSize": 0
+    },
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 8,
+      "name": "[management-share] bastion-8xxgt/vmware-1.log",
+      "size": 1540928,
+      "type": "log",
+      "uniqueSize": 1540928
+    },
+    {
+      "accessible": true,
+      "backingObjectId": null,
+      "key": 7,
+      "name": "[management-share] bastion-8xxgt/vmware.log",
+      "size": 233208,
+      "type": "log",
+      "uniqueSize": 233208
+    }
+  ],
+  "layoutEx.snapshot": [],
+  "layoutEx.timestamp": "2024-05-17T17:53:48.6542Z",
+  "name": "bastion-8xxgt",
+  "network": [
+    "'vim.dvs.DistributedVirtualPortgroup:dvportgroup-6780'"
+  ],
+  "overallStatus": "green",
+  "parent": "'vim.Folder:group-v6781'",
+  "permission": [],
+  "recentTask": [],
+  "resourceConfig.changeVersion": null,
+  "resourceConfig.cpuAllocation.expandableReservation": false,
+  "resourceConfig.cpuAllocation.limit": -1,
+  "resourceConfig.cpuAllocation.overheadLimit": null,
+  "resourceConfig.cpuAllocation.reservation": 0,
+  "resourceConfig.cpuAllocation.shares.level": "normal",
+  "resourceConfig.cpuAllocation.shares.shares": 2000,
+  "resourceConfig.entity": "'vim.VirtualMachine:vm-6782'",
+  "resourceConfig.lastModified": null,
+  "resourceConfig.memoryAllocation.expandableReservation": false,
+  "resourceConfig.memoryAllocation.limit": -1,
+  "resourceConfig.memoryAllocation.overheadLimit": 71,
+  "resourceConfig.memoryAllocation.reservation": 0,
+  "resourceConfig.memoryAllocation.shares.level": "normal",
+  "resourceConfig.memoryAllocation.shares.shares": 40960,
+  "resourceConfig.scaleDescendantsShares": null,
+  "resourcePool": "'vim.ResourcePool:resgroup-1007'",
+  "rootSnapshot": [],
+  "runtime.bootTime": "2024-05-17T16:46:59Z",
+  "runtime.cleanPowerOff": null,
+  "runtime.connectionState": "connected",
+  "runtime.consolidationNeeded": false,
+  "runtime.cryptoState": null,
+  "runtime.dasVmProtection.dasProtected": true,
+  "runtime.device": [
+    {
+      "key": 4000,
+      "runtimeState": {
+        "attachmentStatus": "green",
+        "featureRequirement": [],
+        "reservationStatus": null,
+        "vmDirectPathGen2Active": false,
+        "vmDirectPathGen2InactiveReasonExtended": null,
+        "vmDirectPathGen2InactiveReasonOther": [
+          "vmNptIncompatibleHost"
+        ],
+        "vmDirectPathGen2InactiveReasonVm": []
+      }
+    }
+  ],
+  "runtime.faultToleranceState": "notConfigured",
+  "runtime.featureMask": [],
+  "runtime.featureRequirement": [
+    {
+      "featureName": "cpuid.3dnprefetch",
+      "key": "cpuid.3dnprefetch",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.abm",
+      "key": "cpuid.abm",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.adx",
+      "key": "cpuid.adx",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.aes",
+      "key": "cpuid.aes",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx",
+      "key": "cpuid.avx",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx2",
+      "key": "cpuid.avx2",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512bw",
+      "key": "cpuid.avx512bw",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512cd",
+      "key": "cpuid.avx512cd",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512dq",
+      "key": "cpuid.avx512dq",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512f",
+      "key": "cpuid.avx512f",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512vl",
+      "key": "cpuid.avx512vl",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.bmi1",
+      "key": "cpuid.bmi1",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.bmi2",
+      "key": "cpuid.bmi2",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.clflushopt",
+      "key": "cpuid.clflushopt",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.clwb",
+      "key": "cpuid.clwb",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.cmpxchg16b",
+      "key": "cpuid.cmpxchg16b",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.enfstrg",
+      "key": "cpuid.enfstrg",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.f16c",
+      "key": "cpuid.f16c",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.fcmd",
+      "key": "cpuid.fcmd",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.fma",
+      "key": "cpuid.fma",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.fsgsbase",
+      "key": "cpuid.fsgsbase",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ibpb",
+      "key": "cpuid.ibpb",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ibrs",
+      "key": "cpuid.ibrs",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.intel",
+      "key": "cpuid.intel",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.invpcid",
+      "key": "cpuid.invpcid",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.lahf64",
+      "key": "cpuid.lahf64",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.lm",
+      "key": "cpuid.lm",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.mdclear",
+      "key": "cpuid.mdclear",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.movbe",
+      "key": "cpuid.movbe",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.nx",
+      "key": "cpuid.nx",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.pcid",
+      "key": "cpuid.pcid",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.pclmulqdq",
+      "key": "cpuid.pclmulqdq",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.pdpe1gb",
+      "key": "cpuid.pdpe1gb",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.pku",
+      "key": "cpuid.pku",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.popcnt",
+      "key": "cpuid.popcnt",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.rdrand",
+      "key": "cpuid.rdrand",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.rdseed",
+      "key": "cpuid.rdseed",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.rdtscp",
+      "key": "cpuid.rdtscp",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.smap",
+      "key": "cpuid.smap",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.smep",
+      "key": "cpuid.smep",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ss",
+      "key": "cpuid.ss",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ssbd",
+      "key": "cpuid.ssbd",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.sse3",
+      "key": "cpuid.sse3",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.sse41",
+      "key": "cpuid.sse41",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.sse42",
+      "key": "cpuid.sse42",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ssse3",
+      "key": "cpuid.ssse3",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.stibp",
+      "key": "cpuid.stibp",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_hi16_zmm",
+      "key": "cpuid.xcr0_master_hi16_zmm",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_opmask",
+      "key": "cpuid.xcr0_master_opmask",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_pkru",
+      "key": "cpuid.xcr0_master_pkru",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_sse",
+      "key": "cpuid.xcr0_master_sse",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_ymm_h",
+      "key": "cpuid.xcr0_master_ymm_h",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_zmm_h",
+      "key": "cpuid.xcr0_master_zmm_h",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xsave",
+      "key": "cpuid.xsave",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xsavec",
+      "key": "cpuid.xsavec",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xsaveopt",
+      "key": "cpuid.xsaveopt",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xsaves",
+      "key": "cpuid.xsaves",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "misc.ibrs_all",
+      "key": "misc.ibrs_all",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "misc.mds_no",
+      "key": "misc.mds_no",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "misc.rdcl_no",
+      "key": "misc.rdcl_no",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "misc.rsba_no",
+      "key": "misc.rsba_no",
+      "value": "Bool:Min:1"
+    }
+  ],
+  "runtime.host": "'vim.HostSystem:host-1016'",
+  "runtime.instantCloneFrozen": false,
+  "runtime.maxCpuUsage": 4788,
+  "runtime.maxMemoryUsage": 4096,
+  "runtime.memoryOverhead": null,
+  "runtime.minRequiredEVCModeKey": "intel-cascadelake",
+  "runtime.needSecondaryReason": null,
+  "runtime.numMksConnections": 0,
+  "runtime.offlineFeatureRequirement": [
+    {
+      "featureName": "cpuid.lm",
+      "key": "cpuid.lm",
+      "value": "Num:Min:1"
+    }
+  ],
+  "runtime.onlineStandby": false,
+  "runtime.paused": false,
+  "runtime.powerState": "poweredOn",
+  "runtime.question": null,
+  "runtime.quiescedForkParent": null,
+  "runtime.recordReplayState": "inactive",
+  "runtime.snapshotInBackground": false,
+  "runtime.suspendInterval": 0,
+  "runtime.suspendTime": null,
+  "runtime.suspendedToMemory": null,
+  "runtime.toolsInstallerMounted": false,
+  "runtime.vFlashCacheAllocation": null,
+  "runtime.vmFailoverInProgress": null,
+  "storage.perDatastoreUsage": [],
+  "storage.timestamp": "2024-05-17T17:47:16.681Z",
+  "summary.config.annotation": "",
+  "summary.config.cpuReservation": 0,
+  "summary.config.ftInfo": null,
+  "summary.config.guestFullName": "Other 2.6.x Linux (64-bit)",
+  "summary.config.guestId": "other26xLinux64Guest",
+  "summary.config.hwVersion": "vmx-15",
+  "summary.config.installBootRequired": false,
+  "summary.config.instanceUuid": "500ee6b2-22d4-bb57-7352-00e48d5aa175",
+  "summary.config.managedBy": null,
+  "summary.config.memoryReservation": 0,
+  "summary.config.memorySizeMB": 4096,
+  "summary.config.name": "bastion-8xxgt",
+  "summary.config.numCpu": 2,
+  "summary.config.numEthernetCards": 1,
+  "summary.config.numVirtualDisks": 1,
+  "summary.config.numVmiopBackings": 0,
+  "summary.config.product.appUrl": "",
+  "summary.config.product.classId": "",
+  "summary.config.product.fullVersion": "",
+  "summary.config.product.instanceId": "",
+  "summary.config.product.key": 0,
+  "summary.config.product.name": "",
+  "summary.config.product.productUrl": "",
+  "summary.config.product.vendor": "",
+  "summary.config.product.vendorUrl": "",
+  "summary.config.product.version": "",
+  "summary.config.template": false,
+  "summary.config.tpmPresent": false,
+  "summary.config.uuid": "420e659d-77fd-7782-9eb6-a7386ec0c088",
+  "summary.config.vmPathName": "[management-share] bastion-8xxgt/bastion-8xxgt.vmx",
+  "summary.customValue": [
+    {
+      "key": 144,
+      "value": "bastions"
+    },
+    {
+      "key": 145,
+      "value": "linux"
+    },
+    {
+      "key": 146,
+      "value": "sandbox-8xxgt"
+    },
+    {
+      "key": 147,
+      "value": "True"
+    },
+    {
+      "key": 148,
+      "value": "169.63.253.31"
+    }
+  ],
+  "summary.guest.guestFullName": "Red Hat Enterprise Linux 9 (64-bit)",
+  "summary.guest.guestId": "rhel9_64Guest",
+  "summary.guest.hostName": "bastion-8xxgt",
+  "summary.guest.hwVersion": "vmx-15",
+  "summary.guest.ipAddress": "192.168.22.10",
+  "summary.guest.toolsRunningStatus": "guestToolsRunning",
+  "summary.guest.toolsStatus": "toolsOk",
+  "summary.guest.toolsVersionStatus": "guestToolsUnmanaged",
+  "summary.guest.toolsVersionStatus2": "guestToolsUnmanaged",
+  "summary.overallStatus": "green",
+  "summary.quickStats.balloonedMemory": 0,
+  "summary.quickStats.compressedMemory": 0,
+  "summary.quickStats.consumedOverheadMemory": 36,
+  "summary.quickStats.distributedCpuEntitlement": 23,
+  "summary.quickStats.distributedMemoryEntitlement": 949,
+  "summary.quickStats.ftLatencyStatus": "gray",
+  "summary.quickStats.ftLogBandwidth": -1,
+  "summary.quickStats.ftSecondaryLatency": -1,
+  "summary.quickStats.grantedMemory": 1128,
+  "summary.quickStats.guestHeartbeatStatus": "green",
+  "summary.quickStats.guestMemoryUsage": 40,
+  "summary.quickStats.hostMemoryUsage": 1163,
+  "summary.quickStats.overallCpuDemand": 23,
+  "summary.quickStats.overallCpuReadiness": 0,
+  "summary.quickStats.overallCpuUsage": 23,
+  "summary.quickStats.privateMemory": 1128,
+  "summary.quickStats.sharedMemory": 0,
+  "summary.quickStats.ssdSwappedMemory": 0,
+  "summary.quickStats.staticCpuEntitlement": 3114,
+  "summary.quickStats.staticMemoryEntitlement": 4733,
+  "summary.quickStats.swappedMemory": 0,
+  "summary.quickStats.uptimeSeconds": 4140,
+  "summary.runtime.bootTime": "2024-05-17T16:46:59Z",
+  "summary.runtime.cleanPowerOff": null,
+  "summary.runtime.connectionState": "connected",
+  "summary.runtime.consolidationNeeded": false,
+  "summary.runtime.cryptoState": null,
+  "summary.runtime.dasVmProtection.dasProtected": true,
+  "summary.runtime.device": [
+    {
+      "key": 4000,
+      "runtimeState": {
+        "attachmentStatus": "green",
+        "featureRequirement": [],
+        "reservationStatus": null,
+        "vmDirectPathGen2Active": false,
+        "vmDirectPathGen2InactiveReasonExtended": null,
+        "vmDirectPathGen2InactiveReasonOther": [
+          "vmNptIncompatibleHost"
+        ],
+        "vmDirectPathGen2InactiveReasonVm": []
+      }
+    }
+  ],
+  "summary.runtime.faultToleranceState": "notConfigured",
+  "summary.runtime.featureMask": [],
+  "summary.runtime.featureRequirement": [
+    {
+      "featureName": "cpuid.3dnprefetch",
+      "key": "cpuid.3dnprefetch",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.abm",
+      "key": "cpuid.abm",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.adx",
+      "key": "cpuid.adx",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.aes",
+      "key": "cpuid.aes",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx",
+      "key": "cpuid.avx",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx2",
+      "key": "cpuid.avx2",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512bw",
+      "key": "cpuid.avx512bw",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512cd",
+      "key": "cpuid.avx512cd",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512dq",
+      "key": "cpuid.avx512dq",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512f",
+      "key": "cpuid.avx512f",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.avx512vl",
+      "key": "cpuid.avx512vl",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.bmi1",
+      "key": "cpuid.bmi1",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.bmi2",
+      "key": "cpuid.bmi2",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.clflushopt",
+      "key": "cpuid.clflushopt",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.clwb",
+      "key": "cpuid.clwb",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.cmpxchg16b",
+      "key": "cpuid.cmpxchg16b",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.enfstrg",
+      "key": "cpuid.enfstrg",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.f16c",
+      "key": "cpuid.f16c",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.fcmd",
+      "key": "cpuid.fcmd",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.fma",
+      "key": "cpuid.fma",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.fsgsbase",
+      "key": "cpuid.fsgsbase",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ibpb",
+      "key": "cpuid.ibpb",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ibrs",
+      "key": "cpuid.ibrs",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.intel",
+      "key": "cpuid.intel",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.invpcid",
+      "key": "cpuid.invpcid",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.lahf64",
+      "key": "cpuid.lahf64",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.lm",
+      "key": "cpuid.lm",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.mdclear",
+      "key": "cpuid.mdclear",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.movbe",
+      "key": "cpuid.movbe",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.nx",
+      "key": "cpuid.nx",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.pcid",
+      "key": "cpuid.pcid",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.pclmulqdq",
+      "key": "cpuid.pclmulqdq",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.pdpe1gb",
+      "key": "cpuid.pdpe1gb",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.pku",
+      "key": "cpuid.pku",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.popcnt",
+      "key": "cpuid.popcnt",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.rdrand",
+      "key": "cpuid.rdrand",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.rdseed",
+      "key": "cpuid.rdseed",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.rdtscp",
+      "key": "cpuid.rdtscp",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.smap",
+      "key": "cpuid.smap",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.smep",
+      "key": "cpuid.smep",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ss",
+      "key": "cpuid.ss",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ssbd",
+      "key": "cpuid.ssbd",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.sse3",
+      "key": "cpuid.sse3",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.sse41",
+      "key": "cpuid.sse41",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.sse42",
+      "key": "cpuid.sse42",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.ssse3",
+      "key": "cpuid.ssse3",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.stibp",
+      "key": "cpuid.stibp",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_hi16_zmm",
+      "key": "cpuid.xcr0_master_hi16_zmm",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_opmask",
+      "key": "cpuid.xcr0_master_opmask",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_pkru",
+      "key": "cpuid.xcr0_master_pkru",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_sse",
+      "key": "cpuid.xcr0_master_sse",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_ymm_h",
+      "key": "cpuid.xcr0_master_ymm_h",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xcr0_master_zmm_h",
+      "key": "cpuid.xcr0_master_zmm_h",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xsave",
+      "key": "cpuid.xsave",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xsavec",
+      "key": "cpuid.xsavec",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xsaveopt",
+      "key": "cpuid.xsaveopt",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "cpuid.xsaves",
+      "key": "cpuid.xsaves",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "misc.ibrs_all",
+      "key": "misc.ibrs_all",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "misc.mds_no",
+      "key": "misc.mds_no",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "misc.rdcl_no",
+      "key": "misc.rdcl_no",
+      "value": "Bool:Min:1"
+    },
+    {
+      "featureName": "misc.rsba_no",
+      "key": "misc.rsba_no",
+      "value": "Bool:Min:1"
+    }
+  ],
+  "summary.runtime.host": "'vim.HostSystem:host-1016'",
+  "summary.runtime.instantCloneFrozen": false,
+  "summary.runtime.maxCpuUsage": 4788,
+  "summary.runtime.maxMemoryUsage": 4096,
+  "summary.runtime.memoryOverhead": null,
+  "summary.runtime.minRequiredEVCModeKey": "intel-cascadelake",
+  "summary.runtime.needSecondaryReason": null,
+  "summary.runtime.numMksConnections": 0,
+  "summary.runtime.offlineFeatureRequirement": [
+    {
+      "featureName": "cpuid.lm",
+      "key": "cpuid.lm",
+      "value": "Num:Min:1"
+    }
+  ],
+  "summary.runtime.onlineStandby": false,
+  "summary.runtime.paused": false,
+  "summary.runtime.powerState": "poweredOn",
+  "summary.runtime.question": null,
+  "summary.runtime.quiescedForkParent": null,
+  "summary.runtime.recordReplayState": "inactive",
+  "summary.runtime.snapshotInBackground": false,
+  "summary.runtime.suspendInterval": 0,
+  "summary.runtime.suspendTime": null,
+  "summary.runtime.suspendedToMemory": null,
+  "summary.runtime.toolsInstallerMounted": false,
+  "summary.runtime.vFlashCacheAllocation": null,
+  "summary.runtime.vmFailoverInProgress": null,
+  "summary.storage.committed": 2046396049,
+  "summary.storage.timestamp": "2024-05-17T17:47:16.681052Z",
+  "summary.storage.uncommitted": 30167908352,
+  "summary.storage.unshared": 2044346924,
+  "summary.vm": "'vim.VirtualMachine:vm-6782'",
+  "tag": [],
+  "triggeredAlarmState": [],
+  "value": [
+    {
+      "key": 144,
+      "value": "bastions"
+    },
+    {
+      "key": 145,
+      "value": "linux"
+    },
+    {
+      "key": 146,
+      "value": "sandbox-8xxgt"
+    },
+    {
+      "key": 147,
+      "value": "True"
+    },
+    {
+      "key": 148,
+      "value": "169.63.253.31"
+    }
+  ]
+}
